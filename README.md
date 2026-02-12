@@ -163,19 +163,25 @@ Stored inside:
 ```
 test-results/
 ```
-🔁 Retry Logic
-
-Failed tests are retried automatically (configured in playwright.config.ts).
 ---
-🧠 Features
 
-Page Object Model
-Smoke & Regression tagging
-Environment config
-Auto waits
-Screenshots & videos
-Trace viewer
-HTML reports
-Parallel execution
-Retry on failure
+## 🔁 Retry Logic
+
+Failed tests are retried automatically (configured in `playwright.config.ts`).
+
 ---
+
+## 🧠 Features
+
+- Page Object Model (POM)
+- Smoke & Regression tagging
+- Environment configuration
+- Auto waits
+- Screenshots & videos on failure
+- Trace viewer
+- HTML reports
+- Parallel execution
+- Retry on failure
+
+---
+
